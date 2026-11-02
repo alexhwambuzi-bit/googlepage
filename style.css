@@ -1,0 +1,197 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+  background-color: #202124;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+html, body { height: 100%; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
+
+a { 
+  color: white;
+  text-decoration: none; 
+}
+
+button { 
+  font-family: inherit;
+  cursor: pointer; 
+  border: 0; 
+  background: none; 
+  color: inherit; 
+}
+
+
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+  padding: 6px 4px 6px 16px;
+}
+
+
+
+
+.signin-btn {
+  background-color: skyblue;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 17px 26px;
+  border-radius: 28px;
+}
+
+
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 120px;
+}
+
+.logo {
+  font-size: 84px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+
+.search-box {
+  width: 100%;
+  max-width: 484px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 6px 0 14px;
+  background-color: #4f535c;
+  border: none;
+  border-radius: 28px;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--text);
+  font-size: 16px;
+  padding: 0 6px;
+}
+
+.ai-mode {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 46px;
+  padding: 0 16px 0 14px;
+  margin-left: 4px;
+  background-color: #4f535c;
+  color: white;
+  font-size: 16px;
+  border-radius: 23px;
+  flex-shrink: 0;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin: 30px 15px 30px 15px;
+}
+
+.buttons button {
+  background-color: #303134;
+  color: #e8eaed;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  border-color: #5f6368;
+  background-color: #3c4043;
+}
+
+
+.languages {
+  font-size: 13px;
+  color: #9aa0a6;
+}
+
+.languages a {
+  color: #8ab4f8;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+.languages a:hover {
+  text-decoration: underline;
+}
+
+
+.footer {
+  background-color: #171717;
+  font-size: 14px;
+}
+
+.country {
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+  color: #9aa0a6;
+}
+
+.footer-links {
+  padding: 22px 16px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.footer-links .row {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #9aa0a6;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
